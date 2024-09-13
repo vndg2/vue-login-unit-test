@@ -1,15 +1,16 @@
+/* eslint-disable */
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <login-form/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoginForm from './components/LoginForm.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LoginForm
   }
 }
 </script>
